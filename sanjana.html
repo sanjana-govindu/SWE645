@@ -1,0 +1,181 @@
+<!-- SWE 645 ASSIGNEMNT - 1 -->
+<!-- SANJANA GOVINDU  |  G01380306 -->
+<!-- Student web page which uses W3 CSS templates which contains basic description and picture of the student -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Class Web page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Using one of the W3.CSS Templates to enhance the look and feel of your homepage -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+            .tab {
+                display: inline-block;
+                margin-left: 40px;
+            }
+    </style>
+    <!-- Uses an event listener to the window object that listens for any errors in the page. 
+        If an error occurs, the code redirects the user to the error.html page which is there in the file directory -->
+    <script>
+        window.onerror = function() {
+            window.location.href = 'error.html';
+        }
+    </script>
+</head>
+<body class="w3-light-grey">
+
+    <!-- Using fa - * which is font awesome icons to enhance the look -->
+    
+    <!-- Page Container -->
+    <div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+    <!-- Grid -->
+    <div class="w3-row-padding">
+    
+        <!-- Left Side of the Page - Picture, Information, Skills and Education -->
+        <div class="w3-third">
+        
+            <!-- Photograph -->
+            <div class="w3-white w3-text-grey w3-card-4">
+                <div class="w3-display-container">
+                    <img src="sanjana_photo.jpg" style="width:100%" alt="Avatar">
+                    <div class="w3-display-bottomleft w3-container w3-text-black">
+                </div>
+            </div>
+            <br>
+
+            <div class="w3-container">
+                
+                <!-- Information -->
+                <div class="w3-container">
+                    <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-black"></i>sgovindu@gmu.edu</p>
+                    <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-black"></i>+1 571-201-7350</p>
+                    <p><i class="fa fa-map-marker fa-fw w3-margin-right w3-large w3-text-black"></i>Virginia, USA</p>
+                    <p> Assignment - 1 <a href="http://ec2-3-17-208-176.us-east-2.compute.amazonaws.com/DisplayAllHeaders/index.html"> Click here </a></p>
+                </div>
+                <hr>
+
+                <!-- Skills -->
+                <div class="w3-container">
+                    <h3><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-black"></i>Skills</b></h3>
+                    <br>
+                    <h6 class="w3-text-grey"><b>Programming Languages:</b></h6>
+                    <h6 class="w3-opacity">Java, Python, C#, R, C, C++, MySQL, Oracle DB</h6>
+                    <br>
+                    <h6 class="w3-text-grey"><b>Web Technologies:</b></h6>
+                    <h6 class="w3-opacity">HTML, CSS, JavaScript, PHP, Bootstrap, Angular JS, React JS, XML</h6>
+                    <br>
+                    <h6 class="w3-text-grey"><b>Tools and Framework:</b></h6>
+                    <h6 class="w3-opacity">SpringBoot, Docker, Unity Engine, Figma, Tensorflow, Jupyter, Google Colaboratory, Github, MS Office,
+                    Power BI, Postman, Selenium, Kubernetes, Spark</h6>
+                    <br>
+                </div>
+                <hr>
+
+                <!-- Education -->
+                <div class="w3-container">
+                    <h3><b><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-text-black"></i>Education</b></h3>
+                    <br>
+                    <h5 class="w3-text-grey"><b>George Mason University</b></h5>
+                    <h6 class="w3-opacity">MS in Computer Science | August 2022 - May 2024</h6>
+                    <br>
+                    <h5 class="w3-text-grey"><b>Osmania University</b></h5>
+                    <h6 class="w3-opacity">BE in Computer Science | August 2017 - May 2021</h6>
+                    <br>
+                </div>
+
+            
+            </div>
+        </div>
+        <br>
+        <!-- End of Left Side of the Page-->
+    </div>
+
+        <!-- Right Side of the page - About me, Work Experience and Projects -->
+        <div class="w3-twothird">
+
+        <!-- About Me -->
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+            <h1 class="w3-text-grey">Sanjana Govindu</h1>
+            <h6 class="w3-text-grey w3-padding-8">Gradute Student @ Geroge Mason University</h6>
+            <!-- Using href to add Linkedin and Github links to the page -->
+            <i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-grey w3-padding-14" aria-hidden="true"></i>
+            <a href="https://www.linkedin.com/in/sanjana-govindu-651427192/" target="_blank" class="w3-text-grey"> Linkedin<span class="tab"></span></a> 
+            <i class="fa fa-github fa-fw  w3-margin-right w3-large w3-text-grey" aria-hidden="true"></i>
+            <a href="https://github.com/sanjana-govindu" target="_blank" class="w3-text-grey"> Github </a>
+            <p>I'm a graduate student in the department of Computer Science at George Mason University. I received my bachelor's degree in 2021. 
+            I have an year experience at NCR Corporation as Software Engineer where I worked on full stack development for Digital Banking solutions. 
+            I'm looking foward to be a part of renowned organization with a scope for continuous learning to achieve higher goals in line with the Vision and Mission of the organization and would like to work collaboratively in a team and render my services.</p> 
+        </div>
+        
+        <!-- Work Experience -->
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>Work Experience</h2>
+            <div class="w3-container">
+                <h5 class="w3-opacity"><b>Graduate Research Assistant</b></h5>
+                <h6 class="w3-text-grey">George Mason University <span class="tab"><i class="fa fa-calendar fa-fw w3-margin-right"></i>January 2023 - Current</h6>
+                <p><ul>
+                     <!-- Using an unordered list with list item to list down the content or description in points format -->
+                    <li>Performed preprocessing of Virginia Education datasets using Python Pandas libraries and few visualizations using seaborn and matplotlib.</li>
+                    <li>Performed data operations like pivot to summarize the data and utilize it for statistical analysis and research.</li>
+                    <li>Utilized various Machine learning algorithms like Logistic Regression, Naive Bayes, K Nearest Neighbors and Random Forest.</li>
+                </ul></p>
+                <hr>
+            </div>
+            <div class="w3-container">
+                <h5 class="w3-opacity"><b>Software Engineer</b></h5>
+                <h6 class="w3-text-grey">NCR Corporation, India<span class="tab"><i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2021 - June 2022</h6>
+                <p><ul>
+                    <li>MicroServices Architecture Development, Spring Boot, Java, Simulators, Angular JS, Docker, Data Seeding Tools.</li>
+                    <li>Front end development of new UI for Digital Banking using AngularJS and React.</li>
+                    <li>Uplifted the backend Microservices into new (better) versions using Java, SpringBoot, MySQL, Camel, Elastic search and Docker.</li>
+                    <li>Incorporated and upgraded payment methods, card designs, crypto currency simulation which is currently used by many companies with more than ten thousand active customers.</li>
+                </ul></p>
+                <hr>
+            </div>
+            <div class="w3-container">
+                <h5 class="w3-opacity"><b>Software Intern</b></h5>
+                <h6 class="w3-text-grey">NCR Corporation, India<span class="tab"><i class="fa fa-calendar fa-fw w3-margin-right"></i>February 2021 - July 2021</h6>
+                <p><ul>
+                    <li>Refined/ Uplifted the existing backend code to be consistent with the latest upgrades using Java and Camel.</li>
+                    <li>Responsible for software maintenance, including bug fixes which required a thorough understanding of the codebase. </li>
+                    <li>Integrated SonarQube into the project, which resulted in a 75% increase in code quality.</li>
+                </ul></p>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="w3-container w3-card w3-white">
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-desktop fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>Projects</h2>
+            <div class="w3-container">
+                <h5 class="w3-opacity"><b>Personal Trip Planner</b></h5>
+                <p><ul>
+                    <li> It is a web based (full stack) application developed using HTML5, CSS, Bootstrap, Java Servlets and MySQL to let users plan and manage trips and bookings.</li>
+                    <li> It allows them to check their trips and keep track of plans and also know about the trending destinations during different times of the year.</li>
+                    <li> This application will help users to quickly get reminded about the dates of their trips.</li>
+                </ul></p>
+                <hr>
+            </div>
+            <div class="w3-container">
+                <h5 class="w3-opacity"><b>Music Recommendation System</b></h5>
+                <p><ul>
+                    <li> The music recommendation system can predict and give appropriate songs based on the user's liking and preference by using Long tail, Collaborative filtering and KNN classification algorithms to refer and categorize a list of unique (popular) items.</li>
+                    <li>Performed preprocessing of data using python libraries and did some exploratory implementation to analyze the variables and to discover patterns and implemented visualizations from the dataset so that songs can be recommended based on age group, user’s mood, language and liked songs.</li>
+                </ul></p>
+            </div>
+        </div>
+
+        <!-- End of Right Side of the page -->
+        </div>
+        
+    <!-- End of Grid -->
+    </div>
+    
+    <!-- End of the Page Container -->
+    </div>
+</body>
+</html>

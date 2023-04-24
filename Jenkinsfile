@@ -13,7 +13,7 @@ pipeline {
     stage('Build') {
       steps {
         sh 'rm -rf *.war'
-        sh 'jar -cvf SWE645-Assignment2.war -C WebContent/ .'
+        sh 'jar -cvf SWE645-Assignment2.war -C WebContents/ .'
       }
       post {
         success {

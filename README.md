@@ -1,15 +1,15 @@
 # SWE 645 - ASSIGNMENT 1
-# SANJANA GOVINDU | G01380306 | sgovindu@gmu.edu
+SANJANA GOVINDU | G01380306 | sgovindu@gmu.edu
 
-# This is a README.md file which contains information about the 2 webpages in this assignment created in AWS console
+This is a README.md file which contains information about the 2 webpages in this assignment created in AWS console
 
 STEPS FOLLOWED:
 
-# PART 1 -- sanjana.html - Student web page which uses W3 CSS templates which contains basic description and picture of the student redirected to survey form.
+PART 1 -- sanjana.html - Student web page which uses W3 CSS templates which contains basic description and picture of the student redirected to survey form.
 http://swe645-g01380306-assignment1.s3-website.us-east-2.amazonaws.com/ 
 
 
-# PART 2 -- FEEDBACK PAGE - feedbackpage.html - It contains the survey page table with fields and required specifications mentioned in the assignment along with the comments.
+PART 2 -- FEEDBACK PAGE - feedbackpage.html - It contains the survey page table with fields and required specifications mentioned in the assignment along with the comments.
 
 EC2: http://ec2-3-17-208-176.us-east-2.compute.amazonaws.com/DisplayAllHeaders/feedbackpage.html 
 

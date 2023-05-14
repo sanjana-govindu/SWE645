@@ -1,4 +1,4 @@
-# SWE 645 - ASSIGNMENT 3
+# SWE 645 - ASSIGNMENT 3 - AWS
 SANJANA GOVINDU | G01380306 | sgovindu@gmu.edu
 
 This is a README.md file which contains information about the 2 webpages in this assignment created in AWS console
